@@ -1,0 +1,175 @@
+<html>
+
+<head>
+    <title>Mobile Website</title>
+
+    <!--PLUGIN CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--END OF PLUGIN CSS-->
+
+    <!--CUSTOM CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!--END OF CUSTOM CSS-->
+
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <header>
+        <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="./index.html"><span class="mobile-logo"><i class="fa fa-mobile-phone"></i>Mobile</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item nav-heading">
+                        <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item nav-heading">
+                        <a class="nav-link" href="./about-us.html">About Us</a>
+                    </li>
+                    <li class="nav-item nav-heding">
+                        <a class="nav-link" href="./services.html">Services</a>
+                    </li>
+                    <li class="nav-item nav-heading">
+                        <a class="nav-link" href="./gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item nav-heading active">
+                        <a class="nav-link" href="./contact-us.html">Contact US</a>
+                    </li>
+                </ul>
+            </div>
+            <!--.collapse-->
+        </nav>
+    </header>
+    <!--END OF NAVBAR-->
+
+    <!--CONTACT US SECTION-->
+    <section id="contact-us" class="contact-us-section">
+        <div class="contact-us-cover">
+            <div class="content-title">
+                <h3 class="text-heading">Contact Us</h3>
+                <div class="content-title-underline"></div>
+                <!--.content-title-content-->
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 contact-content contact-left">
+                        <h5>We'd love to here from you</h5>
+                        <p>Thanks a lot for visiting our website. Please use the following from to fill in <br> your details or maybe you use the below contact no and email id to reach us. <br> We will contact you asap.</p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="address-heading">
+                                    <i class="fa fa-map-marker">Address:</i>
+                                    <address>
+                                        <p>313, Evergreen CHS. <br>
+                                            Airoli Sector 15, <br>
+                                            New Bombay, <br>
+                                            Mumbai - 55.</p>
+                                    </address>
+                                </div>
+                                <!--.address-heading-->
+                            </div>
+                            <!--.col-md-6-->
+                            <div class="col-md-6">
+                                <div class="address-heading">
+                                    <i class="fa fa-phone">Phone:</i>
+                                    <p><span>(719)-778-8804</span></p>
+                                </div>
+                                <!--.address-heading-->
+                                <div class="address-heading">
+                                    <i class="fa fa-envelope">Email:</i>
+                                    <p>email@example.com</p>
+                                </div>
+                                <!--.address-heading-->
+                            </div>
+                            <!--.col-md-6-->
+                        </div>
+                        <!--.row-->
+                    </div>
+                    <!--.col-md-6-->
+                    <div class="col-md-6 contact-content">
+                        <div class="map map-responsive">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.349422047369!2d72.97808291437835!3d19.179934753682616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b8da14eacea9%3A0xb4f1e032d9e4fc41!2sK%20C%20College%20Of%20Engineering%20Management%20Studies%20And%20Research!5e0!3m2!1sen!2sin!4v1576850906761!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        </div>
+                        <!--.map-->
+                    </div>
+                    <!--.col-md-6-->
+
+                </div>
+                <!--.row-->
+                <div class="col-md-12">
+                    <div class="content-title">
+                        <h3 class="text-heading">Feedback Form</h3>
+                        <div class="content-title-underline"></div>
+                        <!--.content-title-content-->
+                    </div>
+                    <div class="contact-form">
+                        <form action="mobile.php" method="post">
+                            <div class="form-group contact-detail">
+                                <input type="text" name="full-name" placeholder="Full-Name" class="form-control">
+                            </div>
+                            <!--.from-group-->
+                            <div class="form-group contact-detail">
+                                <input type="email" name="email" placeholder="Email Address" class="form-control">
+                            </div>
+                            <!--.from-group-->
+                            <div class="form-group contact-detail">
+                                <textarea name="message" rows="3" placeholder="Your Message..." class="form-control"></textarea>
+                            </div>
+                            <!--.from-group-->
+                            <div class="form-group contact-detail">
+                                <div class="send-btn">
+                                    <button class="btn btn-sm btn-crimson" value="submit">Submit</button>
+                                </div>
+                                <!--.send-btn-->
+                            </div>
+                            <!--.from-group-->
+                        </form>
+                    </div>
+                    <!--.contact-form-->
+                </div>
+                <!--.col-md-12-->
+            </div>
+            <!--.container-->
+        </div>
+        <!--.contact-us-cover-->
+    </section>
+    <!--END OF CONTACT US SECTION-->
+
+    <!--FOOTER-->
+    <footer id="footer" class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 right-text">
+                    <p class="text-color footer-content">&copy; Copyright Mobile 2019 &mdash; All Rights Reserved</p>
+                </div>
+                <!--.col-md-6-->
+                <div class="col-md-6 left-text">
+                    <ul class="social-icons footer-content">
+                        <li class="icon-style icon-facebook"><i class="fa fa-facebook"></i></li>
+                        <li class="icon-style icon-twitter"><i class="fa fa-twitter"></i></li>
+                        <li class="icon-style icon-instagram"><i class="fa fa-instagram"></i></li>
+                        <li class="icon-style icon-youtube"><i class="fa fa-youtube"></i></li>
+                    </ul>
+                </div>
+                <!--.col-md-6-->
+            </div>
+            <!--.row-->
+        </div>
+        <!--.container-->
+    </footer>
+    <!--END OF FOOTER-->
+
+    <!--PLUGIN JS-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--END OF PLUGIN JS-->
+
+</body>
+
+</html>
